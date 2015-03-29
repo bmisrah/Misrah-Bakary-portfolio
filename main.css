@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* start */
+
+.topnav{
+
+padding: 3em 0;
+overflow: hidden;
+margin: auto 0;
+}
+
+.content-top{  background-color: #fff;
+}
+
+.links{
+    float:right;
+    margin-right: 7em;
+    margin-top: 1em;
+
+    }
+
+.links li {display:inline-block;
+padding-right: 2em;
+list-style: none;
+font-family: "Josefin Slab", Georgia, serif;
+font-size: 1.4em;
+color:#222222;
+}
+
+.links a{
+  text-decoration: none;
+  color: grey;
+
+}
+
+
+
+.namelogo{
+  margin-left: 2em;
+  font-family: "Stalemate", "Open Sans", "Helvetica Neue", sans-serif;
+font-size: 3.5em;
+
+}
+
+/* About me page starts */
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+background-image: url("http://subtlepatterns.com/patterns/cream_dust.png");
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+ text-align: center;
+}
+
+.masthead {
+  
+    padding: 10em 0;
+    background-image: url("https://ununsplash.imgix.net/reserve/zU6fwmDaSVWZdCXcZfot_IMG_3838.JPG?q=75&fm=jpg&s=d29d60fdb60dc13678a6c7a53babcde4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+  color:#606060;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  text-shadow: 3px 4px #FFCF33;
+  color: #fff;
+ 
+}
+
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+
+}
+
+
+.content-footer{max-width: none;
+margin-top: 5em;}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p {
+  color:#606060;
+}
+
+.social > li {
+    display: inline-block;
+    
+}
+
+.social li a
+{text-decoration:none;
+ color:#95AE47;
+font-weight:bolder;}
+
+p > a
+{text-decoration:none;
+  color:#95AE47;
+font-weight:bold;}
+
+
+a:hover{
+  color:#33CCFF;}
+
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.questions-section > h2 {
+    font-family: "Josefin Slab", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+  color:#99CCFF; 
+}
+
+.content-footer{
+ 
+  background-color:#FFCF33;
+  
+  padding:2em 0;
+}
+
+.content-footer > p {
+ color: white;
+ margin-bottom: 1.3em;
+
+}
+
+
+.content-footer > ul { margin-bottom: 1.3em;}
+
+section > h1 {
+    margin-top: 2em;
+    color:#95AE47;
+    font-size:2em;
+    font-family: "Josefin Slab", Georgia, serif;
+
+}
+/* media queries*/
+@media only screen and (max-width: 500px) {
+     .masthead {
+        padding: 3em 0;
+    }
+  .masthead-heading {
+        font-size: 3em
+     }}
+
+@media only screen and (max-width: 500px) {
+  
+.content-footer{padding:1em;}
+.content-footer > p {
+  font-weight: 200;}
+  .social li a {font-size:2rem;}
+ }
+
+ /*About Me page ends*/
+
+/*projects page starts */
+ 
+ .pagesubject{
+text-align: center;
+
+}
+
+ .pagesubject h2{
+
+ background-color:#FFCF33;
+
+ color:#fff;
+ font-size: 2em; 
+ padding:1em;
+ margin-bottom: 3em;
+font-family: Josefin Slab;}
+
+ .main-images h3{
+text-align: center;
+padding: 2em 0;
+font-weight: bold;
+font-size: 1.5em;
+color: grey;
+
+}
+
+.main-images img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.5em grey;
+    margin-bottom: 3em;
+      
+}
+
